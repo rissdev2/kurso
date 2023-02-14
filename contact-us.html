@@ -30,34 +30,34 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <!--------- Navbar Code Start  -------->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container align-items-center">
-        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item"> 
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Course</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contact us</a>
-            </li>
-          </ul>
-          <div class="btn-div border-start">
-           <a href=""><i class="fa-solid fa-heart mx-5"></i></a> 
-           <a href=""><i class="fa-solid fa-cart-shopping me-5"></i></a> 
-            <a href="" class="btn1 mx-5">login</a>
-            <a href="" class="btn2">Register Now</a>
-          </div>
-        </div>
+<!--------- Navbar Code Start  -------->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container align-items-center">
+    <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"> 
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./courses.html">Course</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact-us.html">contact us</a>
+        </li>
+      </ul>
+      <div class="btn-div border-start d-flex flex-column flex-md-row">
+      <a href=""><i class="fa-solid fa-heart mx-4 mx-md-5"></i></a>
+     <a href="./cart.html"><i class="fa-solid fa-cart-shopping mx-4 mx-md-0 me-5"></i></a>
+      <p class="mt-4 mt-md-0"><a href="./login.html" class="btn1 mx-4 mx-md-5">login</a></p>  
+      <p class="mt-4 mt-md-0"><a href="./register.html" class="btn2 mx-4 mx-md-0">Register Now</a></p>  
       </div>
-    </nav>
+    </div>
+  </div>
+</nav>
 <!--------- Navbar Code End  -------->
     <section class="hero">
         <div class="container">
@@ -66,12 +66,18 @@
               <h3>Contact Us</h3>
             </div>
   
-            <div class="col-lg-6 col-12 text-end">
-              <img src="images/icon.png" class="img-fluid" />
-              <img src="images/arrow.png" class="img-fluid" />
-              <img src="images/cou-h-img.png" class="img-fluid" />
-  
-  
+            <div class="col-lg-2 col-5 text-center ">
+
+              <img src="images/icon.png" class="img-fluid">
+    
+            </div>
+            <div class="col-lg-1 col-md-2 col-2 ">
+              <img src="images/arrow.png" class="img-fluid">
+            </div>
+            <div class="col-lg-3 col-5 text-end">
+    
+              <img src="images/cou-h-img.png" class="img-fluid">
+    
             </div>
             <!-- <div class="col-lg-1 col-md-2 col-2">
             </div>
@@ -80,19 +86,21 @@
           </div>
         </div>
       </section>
-
+      <!-- <img src="images/icon.png" class="img-fluid" />
+      <img src="images/arrow.png" class="img-fluid" />
+      <img src="images/cou-h-img.png" class="img-fluid" /> -->
 
       <section class="contact-form-section">
         <div class="container contact-container">
             <div class="row">
                 <div class="col-lg-7">
-                    <img src="images/contact-img.png">
+                    <img src="./images/contact-img.png" class="img-fluid">
 
                     <div class="row mt-5 ms-4">
-                        <div class="col-lg-1">
+                        <div class="col-2 col-lg-1">
                             <img src="images/add-blue-icon.png">
                         </div>
-                        <div class="col-lg-11">
+                        <div class="col-10 col-lg-11">
                             <h5 class="address-heading">Address</h5>
                             <p class="address-txt ">Your concerns and problems are in good hands with us.</p>
                         </div>
@@ -100,26 +108,26 @@
 
 
                     <div class="row mt-5  ms-4">
-                        <div class="col-lg-1">
+                        <div class="col-2 col-lg-1">
                             <img src="images/email-blue-icon.png">
                         </div>
-                        <div class="col-lg-11">
+                        <div class="col-10 col-lg-11">
                             <h5 class="address-heading">E-mail</h5>
                             <p class="address-txt ">Mail@Email.com.</p>
                         </div>
                     </div>
 
                     <div class="row mt-5 ms-4">
-                        <div class="col-lg-1">
+                        <div class="col-2 col-lg-1">
                             <img src="images/phone-blue-icon.png">
                         </div>
-                        <div class="col-lg-11">
+                        <div class="col-10 col-lg-11">
                             <h5 class="address-heading">Telephone</h5>
                             <p class="address-txt ">( +49 ) 211 865610</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 ">
+                <div class="col-lg-5 mt-5 mt-md-0">
                     <h4 class="que-txt text-center">Got a Question?</h4>
 
                     <form>
@@ -171,23 +179,23 @@
   <div class="container">
     <div class="row  py-5 ">
       <div class="col-md-4">
-        <img id="logo" src="./img/fot-logo.png">
+        <img id="logo" class="img-fluid" src="./img/fot-logo.png">
       </div>
       <div class="col-md-1"></div>
-      <div class="col-md-2 d-flex justify-content-center ">
+      <div class="col-md-2 text-center text-md-start d-flex justify-content-center ">
         <div>
     <h5>Services</h5>
-        <p><a href="">Home</a> </p>
-        <p><a href="">Courses</a> </p>
-        <p><a href="">Contact Us</a> </p>
-        <p><a href="">Login</a> </p>
-        <p><a href="">Register</a> </p>
-        <p><a href=""> Your Cart</a></p>
+    <p><a href="./index.html">Home</a> </p>
+    <p><a href="./courses.html">Courses</a> </p>
+    <p><a href="./contact-us.html">Contact Us</a> </p>
+    <p><a href="./login.html">Login</a> </p>
+    <p><a href="./register.html">Register</a> </p>
+    <p><a href="./cart.html"> Your Cart</a></p>
         </div>
     
       </div>
       <div class="col-md-2"></div>
-      <div class="col-md-3 d-flex justify-content-center">
+      <div class="col-md-3 text-center text-md-start d-flex justify-content-center">
         <div>
            <h5>Get In Touch</h5>
           <p> <img src="./img/location.png" class="me-2">
@@ -215,5 +223,11 @@
   </div>
 </section>
 <!------------- Footer Section Code End  ----------->
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
