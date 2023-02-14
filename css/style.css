@@ -208,6 +208,18 @@ margin-bottom: 0px;
 }
 /******** Mini Card Section Css End ********/
 /******** Category Section Section Css Start ********/
+.ctgr-head{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 63px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #000000;
+}
 .catgry-sec{
   background: #F1F3F8;
 
@@ -305,6 +317,7 @@ margin-bottom: 0px;
 .card i{
   font-size: 30px !important;
   margin-left: 91px !important;
+  color: #000000;
 }
 .card h4{
   font-family: 'Poppins';
@@ -526,26 +539,7 @@ color: #747474;
 
 }
 
-/******** Featured Instructor Section Css End ********/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/******** Featured Instructor Section Css End *******/
 /******** Partner Section Section Css Start ********/
 .partner-sec h5{
   font-family: 'Poppins';
@@ -639,6 +633,93 @@ color: #171717;
   padding-left: 0px;
 }
 /******** Footer Section Section Css End ********/
+
+/* ***** Mobile Responsive Media Qurries Css Start ********* */
+
+@media screen and (max-width: 767px) {
+  .hero-sec h1{
+    font-size: 40px;
+  
+  }
+  .hero-sec p{
+    line-height: 40px;
+  }
+  .input-group {
+    width: 100%;
+  }
+  .hero-sec h3{
+    
+    font-size: 25px;
+    line-height: 45px;
+
+  }
+  .hero-sec h2{
+    
+    font-size: 40px;
+  }
+  .course-sec h2{
+    font-size: 40px;
+  }
+  .course-sec p{
+    line-height: 35px;
+  }
+  .skill-sec h2{
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .skill-sec p{
+    line-height: 35px;
+  }
+  .testi-sec h2{
+    font-size: 35px;
+    line-height: 145%;
+  }
+  .testi-sec p{
+    line-height: 35px;
+  }
+  .trend-sec h2{
+    font-size: 35px;
+  }
+  .trend-sec p{
+    line-height: 35px;
+  }
+  .instruct-sec h2{
+    font-size: 35px;
+
+  }
+  .instruct-sec p{
+    
+    line-height: 35px;
+
+  }
+  .partner-sec h2{
+    
+    font-size: 27px;
+
+  }
+  .gudi-sec h2{
+    font-size: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+/****** Mobile Responsive Media Qurries Css End **********/
+
+
+
+
+
+
+
+
+
+
 /********** Home Page Css End  ********/
 
 
